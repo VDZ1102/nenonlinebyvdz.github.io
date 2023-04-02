@@ -6,7 +6,7 @@ var count=0;
 var gif1='https://giphy.com/embed/3aWkZTWqeVyHS'
 var gif2='https://giphy.com/embed/TEkr9oBZ57KFmMWScZ'
 function change1(){
-    var audio = new Audio("../sound/123.mp3");
+    var audio = new Audio("sound/123.mp3");
     audio.play();
     document.getElementById('note').innerHTML="Chơi nhiều nhưng học cũng nhiều ấy là nhân <br> Đã học là học hẳn hoi ấy là nghĩa <br> Học 25 phút nghỉ 5 phút ấy là trí 😘";
     document.getElementById('123').src=gif2;
@@ -17,7 +17,7 @@ function change1(){
 
 function change2(){
    
-    var audio = new Audio("../sound/Nhạc chuông Bật tình yêu Lên (giọng nam) remix Tiktok - Cukak.mp3");
+    var audio = new Audio("sound/Nhạc chuông Bật tình yêu Lên (giọng nam) remix Tiktok - Cukak.mp3");
     audio.play();
     document.getElementById('123').src=gif1;
     setTimeout(change1, 1500000)
