@@ -1,5 +1,5 @@
 // autoplay;
-const Time25p = setTimeout(change1, 15000)
+const Time25p = setTimeout(change1, 1500000)
 
 var count=0;
 
@@ -12,7 +12,7 @@ function change1(){
     document.getElementById('123').src=gif2;
     appear();
     count+=1;
-    setTimeout(change2, 30000)
+    setTimeout(change2, 300000)
 }
 
 function change2(){
@@ -20,7 +20,7 @@ function change2(){
     var audio = new Audio("sound/Nhạc chuông Bật tình yêu Lên (giọng nam) remix Tiktok - Cukak.mp3");
     audio.play();
     document.getElementById('123').src=gif1;
-    setTimeout(change1, 15000)
+    setTimeout(change1, 1500000)
 }
 //3000000 15000000
 function Troll(){
